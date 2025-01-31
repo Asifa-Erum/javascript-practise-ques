@@ -3,12 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>  Tamplate literale</title>
 </head>
 <body>
-    
+    <!-- <button onclick="getPoint()">let's start</button> -->
 
     
 </body>
-<script src="Es6.js"></script>
+<script >
+    // x= 21;
+    // y=5;
+//     let by = "breakfast has been taken now he will get ready for going to school";
+//     let user = "ali,ahmed,sara,ayesha,iqra";
+    
+//    console.log(`${by} \n ${user}`);
+
+    // let data={
+    //     list:"subject",
+    //     names:['urdu','eng','math'],
+    //     getSubjects:function(){
+    //         this.names.map(function(item){
+    //             console.log(this.list,item);                
+    //         })
+    //     }
+    // }
+    // data.getSubjects()
+
+    // function cities(a,...z)
+    //    {
+    //        console.log("cities",z)
+    //    }
+    //    function test()
+    //    {
+
+    //    }
+    //    cities('karachi','lahore','islamabad','hyderabad','sialkot',test);
+
+
+    // let a=undefined;
+       
+    
+    //     let promiseData= new Promise((resolved,reject)=>{
+    //         setTimeout(() => {
+    //         a="Assigment done"
+    //         resolved("done")
+    //     }, 6000);
+    //     })
+
+    //     promiseData.then(()=>{
+    //         alert(a);
+    //     })
+
+
+ 
+    // import User,{UserOther as UserO,UserVar,UserClass,UOC} from  './user.js'
+    //     function UserOther()
+    //     {
+    //         console.log("in current file")
+    //     }
+    
+    // let UC1= new UserClass();
+    // UC1.test()
+    // UOC.test()
+
+
+    // let data={
+    //        list:'cities',
+    //        names:['karachi','lahore','islamabad'],
+    //        getCities:function()
+    //        {
+    //           this.names.map((item)=>{
+    //               console.log(this.list,item)
+    //           })
+    //        }
+    //    }
+
+    //    data.getCities()
+
+    
+
+    // for(let i=1;i<=10;i++)
+    // {
+    //    setTimeout(()=>{
+    //     console.log(i)
+    //    },1000)
+    // }
+
+    // function* point() {
+    //         let a = 5;
+    //         let b = 6;
+    //         console.log(5 + 6)
+    //         yield 'first one start'
+    //         console.log(6 - 5)
+    //         yield 'second one goingon'
+    //         console.log(6 * 5)
+    //         yield 'third one completed'
+    //         return "everything has been done"
+    //     }
+    //     let poi=point();
+    //     function getPoint()
+    //     {
+    //         console.log(poi.next());
+    //     }
+
+    // let getData = [
+    //         { id: 4, name: "Ali" },
+    //         { id: 9, name: "Ahmed" },
+    //         { id:60, name: "iqra" },
+    //         { id: 2, name: "Ayesha" },
+    //         { id: 77, name: "sara" },
+
+    //     ]
+    //     let show = getData.find(function (user) {
+    //         return user.id;
+    //     })
+    //     console.log(show)
+
+    // console.log(6*4)
+    //     console.log(3**4)
+    //     console.log(8**-4)
+    //     console.log(5**NaN)
+    //  console.log(4**5**3)
+    // console.log(3**(4**5))
+
+    // let info = { name: 'Ali', email: 'ali123@gmail.com', number: 9999 }
+    //     let { number, ...email } = info
+    //     console.log(email)
+
+    // let socialMedia=['Whatsapp','facebook','instagram',"X"];
+    // let [social1, social2, ...social3]=socialMedia;
+    // console.log(social3)
+
+    // class Books{
+    //         name="urdu"
+    //         read()
+    //         {
+    //             console.log("read",this.name)
+    //         }
+    //          getBooks(item)
+    //         {
+    //             return item
+    //         }
+
+    //     }
+    //     let book= new Books;
+    //     console.log(book.name)
+
+//     async  function showData()
+//     {
+//         let data= await fetch("https://jsonplaceholder.typicode.com/todos/1");
+//          data =await data.json()
+//         return "It's working"
+//     }
+//    console.log( showData())
+
+
+// let item={
+//         name:"Ayesha",
+//         Name:function()
+//         {
+//             console.log("real",this)
+//         },
+//         say:()=>{
+//             console.log("hello",this)
+//         }
+//     }
+
+
+//     item.Name();
+//     item.say();
+
+
+class Class {
+            doneClass() {
+                return "matric has been done"
+            }
+            goingOn() {
+                return "1st year is being learned"
+            }
+        }
+        class School extends Class {
+            constructor() {
+                super()
+                console.log("School")
+            }
+            getClass() {
+                return "you got pass";
+            }
+        }
+        let  = new School;
+        let c = new Class;
+        console.log(c.doneClass())
+</script>
 </html>
